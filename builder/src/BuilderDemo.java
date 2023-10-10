@@ -1,5 +1,8 @@
+import java.util.function.Function;
+
 public class BuilderDemo {
     public static void main(String[] args) {
+        // https://www.tutorialspoint.com/design_pattern/builder_pattern.htm
         MealBuilder mealBuilder = new MealBuilder();
         Meal vegBurger = mealBuilder.prepareVegBurger();
         Meal chickenBurger = mealBuilder.prepareChickenBurger();
